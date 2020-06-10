@@ -24,7 +24,7 @@ body {
 /* LAYOUT */
 .container {
 	max-width: 55rem;
-	margin: 5rem auto;
+	margin: 7.5rem auto;
 	text-align: center;
 }
 /* COMPONENTS */
@@ -62,18 +62,44 @@ body {
 }
 
 .illustration {
-	margin: 5rem auto;
+	margin: 8rem auto 10rem auto;
 	max-width: 100%;
 }
 .illustration__img {
 	width: 100%;
 }
 
+.social-links {
+	list-style: none;
+	max-width: 17.5rem;
+	margin: 3rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: var(--color-blue);
+}
+
+.social-links__item {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #fff;
+	border: .2px solid rgba(0,0,0,.5);
+}
+
 .attribution {
 	text-align: center;
+	font-size: 1.6rem;
+	margin: 1rem 0;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--color-blue);
+	letter-spacing: .8px;
 }
 
 
